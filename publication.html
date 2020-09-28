@@ -1,0 +1,112 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="content" style="text-align:center">
+
+<table style="width:900px">
+	<tr>
+		<th style="width:10%;text-align:left"><h1>S.ONG</h1></th>
+		<th><hr></th>
+		<th style="width:55%">
+			<h1 class="header" style="text-align:left">Image Processing . Information Hiding </h1>
+		</th>
+	</tr>
+	<tr>
+		<th></th>
+		<th colspan="2" style="text-align:left">
+		<button class="smallbutton" onclick="window.location.href='index.html';">
+<img src="images/icons8-home-52.png" width="15" height="15"/> Home
+</button>
+<button class="smallbutton" onclick="window.location.href='profile.html';">
+<img src="images/icons8-cat-profile-60.png" width="15" height="15"/> Profile
+</button>
+<button class="smallbutton" onclick="window.location.href='publication.html';">
+<img src="images/icons8-brochure-60.png" width="15" height="15"/> Publication
+</button>
+<button class="smallbutton" onclick="window.location.href='collabproject.html';">
+<img src="images/icons8-creativity-60.png" width="15" height="15"/> Collaboration
+</button>
+<button class="smallbutton" onclick="window.location.href='blog.html';">
+<img src="images/icons8-quote-100.png" width="15" height="15"/> Blog
+</button>
+<button class="smallbutton" onclick="window.location.href='disclaimer.html';">
+<img src="images/icons8-disclaimer-100.png" width="15" height="15"/> Disclaimer
+</button>
+		
+		</th>
+	</tr>
+</table>
+
+</div>
+
+<div class="content" style="width:800px;text-align:left">
+<p class="pagetitle">Publications
+<br><i>Conferences and research involvements</i></p>
+
+
+<p>Journal Publications</p>
+<button class="collapsible">Soo Mee Wong, Simying Ong, Chee Seng Chan, "Regularization-based modulation transfer function compensation for optical satellite image restoration using joint statistical model in curvelet domain," J. Appl. Remote Sens. 14(3), 036506 (2020), doi: 10.1117/1.JRS.14.036506.</button>
+<div class="collapcontent">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 2</button>
+<div class="collapcontent">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 3</button>
+<div class="collapcontent">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<p>Conference Publications</p>
+<button class="collapsible">Open Section 1</button>
+<div class="collapcontent">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 2</button>
+<div class="collapcontent">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 3</button>
+<div class="collapcontent">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+</div>
+
+
+<br>
+<div class="content" style="text-align:center">
+<table style="width:800px">
+	<tr>
+		<th><hr></th>
+		<th style="width:35%;text-align:right"><p class="footer">Copyright &#169; 2020. All rights reserved.</th>
+	</tr>
+</table>
+  <!-- Page content -->
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+</body>
+</html>
