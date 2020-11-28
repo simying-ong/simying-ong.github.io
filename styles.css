@@ -10,6 +10,15 @@ p {
   color: black;
 }
 
+.abstract {
+	font-size: 12px;
+	padding: 0px 15px;
+}
+
+.pubtitle {
+	padding: 0px 0px 5px 0px;
+}
+
 hr {
 	height:2px;
 	border-width:0;
@@ -68,6 +77,20 @@ h1.header{
   width: 150px;
 }
 
+.buttonCompact {
+  background-color: white;
+  color: black;
+  border: 2px solid #696969; /* Gray */
+  border-radius: 8px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  width: 125px;
+}
+
 .smallbutton{
   background-color: white;
   color: black;
@@ -91,6 +114,11 @@ h1.header{
 }
 
 .button:hover {
+  background-color: #696969; /* Gray */
+  color: white;
+}
+
+.buttonCompact:hover {
   background-color: #696969; /* Gray */
   color: white;
 }
@@ -158,6 +186,42 @@ img.profile:hover {
 
 
 
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 5px;
+	width: 100px;
+	border: none;
+	text-align: center;
+	outline: none;
+	font-size: 10px;
+	border: 1px solid #696969; /* Gray */
+	border-radius: 5px;
+	transition-duration: 0.4s
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+	background-color: #696969;
+	color: white;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.contentCollapse {
+	padding: 0 15px;
+	display: none;
+	overflow: hidden;
+	font-size: 12px;
+	font-style: italic;
+}
+
+
+
+
+
+
 
 
 
@@ -206,40 +270,3 @@ img.profile:hover {
 }
 
 
-
-/* Style the collapsible */
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.collapsible:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.collapcontent {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
-}

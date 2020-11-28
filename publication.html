@@ -1,0 +1,210 @@
+﻿<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="content" style="text-align:center">
+
+<table style="width:900px">
+	<tr>
+		<th style="width:10%;text-align:left"><h1>S.ONG</th>
+		<th><hr></th>
+		<th style="width:55%">
+			<h2 style="font-family:impact;font-weight:lighter;text-align:left">
+	    	<span>Image Processing . Information Hiding</span>
+			</h2>
+		</th>
+	</tr>
+</table>
+</div>
+
+<div class="content" style="width:800px;text-align:center">
+<button class="buttonCompact" onclick="window.location.href='index.html';">
+<img src="images/icons8-home-52.png" width="25" height="25"/>
+<span><br>Home</span>
+</button>
+<button class="buttonCompact" onclick="window.location.href='profile.html';">
+<img src="images/icons8-cat-profile-60.png" width="25" height="25"/>
+<span><br>Profile</span>
+</button>
+<button class="buttonCompact" onclick="window.location.href='publication.html';">
+<img src="images/icons8-brochure-60.png" width="25" height="25"/>
+<span><br>Publication</span>
+</button>
+<button class="buttonCompact" onclick="window.location.href='collabproject.html';">
+<img src="images/icons8-creativity-60.png" width="25" height="25"/>
+<span><br>Collaboration</span>
+</button>
+<button class="buttonCompact" onclick="window.location.href='blog.html';">
+<img src="images/icons8-quote-100.png" width="25" height="25"/>
+<span><br>Blog</span>
+</button>
+<button class="buttonCompact" onclick="window.location.href='disclaimer.html';">
+<img src="images/icons8-disclaimer-100.png" width="25" height="25"/>
+<span><br>Disclaimer</span>
+</button>
+</div>
+
+<div class="content" style="width:800px;text-align:left">
+<h3 style="text-align:left"><i><u>Publications</u></i></h3>
+<details>
+	<summary class="pubtitle">S. Ong and K. Wong, “<b>Information Hiding in Image Enhancement</b>," 2020 IEEE 27th International Conference on Image Processing (ICIP), pp. 4559-4563, 2020. <small>[<a href="https://doi.org/10.1109/ICIP40778.2020.9191093">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>This paper proposes an information hiding method to embed data while executing image enhancement steps. The 2D Median Filter is adapted and re-engineered to demonstrate the feasibility of this concept. In particular, the filtering-embedding steps are performed for each pixel in a sliding window manner. Pixels enclosed within the predefined window (neighborhood) are gathered, linearized and sorted. Then, the linearized pixels are divided into partitions, in which each partition is assigned to represent a certain sequence of bits. The performance of the proposed method is evaluated by using the BSD300 dataset for various settings. The embedding capacity, image quality, data extraction error rate are reported and analyzed. Besides, the robustness of the proposed method against brute force attack is also discussed. In the best case scenario, when the window size is 7×7,∼0.97 bpp is achieved with acceptable image quality while having ∼3.5% data extraction error rate.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S.M. Wong, S. Ong, C.S. Chan, “<b>Regularization-based modulation transfer function compensation for optical satellite image restoration using joint statistical model in curvelet domain</b>,” Journal of Applied Remote Sensing (JARS), 14(3), 2020. <small>[<a href="https://doi.org/10.1117/1.JRS.14.036506">DOI</a>]</small> </summary>
+	<p class="abstract">Abstract: <i>The heavy-tailed properties of modulation transfer function (MTF) typically introduce noise and an aliasing effect in the MTF compensation (MTFC) effort to improve the spatial quality of optical satellite images. These degradative effects compromise the image’s signal-to-noise ratio (SNR). Consequently, users must evaluate the relative importance of image sharpness versus SNR for their applications to decide whether MTFC processing is appropriate. We propose a high-fidelity MTFC method that executes an optimal trade-off between noise regularization and detail preservation in the image restoration process to address this problem. To this end, we exploit the merit of image prior characteristics in both local smoothness and nonlocal self-similarity properties of an image in a hybrid domain (viz., space spatial and frequency) to design effective regularization terms that reflect these image properties. Furthermore, we establish a simple joint statistical model in the curvelet domain to combine these two properties. To make this regularization-based MTFC method tractable and robust, we employ the multiobjective bilevel optimization approach to solve the severely ill-posed inverse problem of MTFC. We conduct extensive experiments to evaluate the proposed regularization-based MTFC method using synthetically blurred images simulated from the level 2A product of IKONOS and real satellite images with unknown blur. Quantitative measurements of image quality reveal that the proposed method produces competitive restoration results with minimum computational complexity and exhibits a good convergence property. These experimental results show that the proposed method can find a compromise between regularizing noise and preserving image fidelity.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">W.Y. Kan, S. Ong and K. Wong. "<b>Data Embedding Method Using Photo Effects with Resistance to Compression</b>", 2020 12th Asia Pasific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), 2020 [Accepted for Oral Presentation]. <small>[<a href="">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>This work aims to integrate data embedding capability into common photo effects, which simplifies the 2-step process of achieving photo effect and data embedding. Specifically, three novel data embedding methods using photo effect are put forward. A preliminary study is first conducted on popular editing software to identify the commonly available photo effects. The photo effects are found to be sketch, halftone, and vintage, and they are modified to incorporate the data embedding capability. The data embedding algorithms are designed in a way so that the embedded data can survive compression. Three prototypes are built as proof of concepts to verify the feasibility of achieving photo effect generation and data embedding simultaneously. Experiments are carried to verify the basic performance of the proposed data embedding method, including embedding capacity, image quality and robustness against compression. </i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S.M. Wong, S. Ong, C.S. Chan, "<b>On-orbit spatial characterization based on satellite image structure</b>," Journal of Applied Remote Sensing (JARS), 13(1), 2019. <small>[<a href="https://doi.org/10.1117/1.JRS.13.016510">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>One practical way to characterize the spatial performance of an in-flight satellite optical imaging system is to determine the modulation transfer function (MTF) from its remotely sensed images on the ground. Currently, there are many MTF measurement techniques designed to provide accurate measurements for high-resolution imaging systems. However, these existing techniques usually rely on the presence and manual identification of a well-separated characteristics target. We introduce an insight to effectively estimate a degradation function based on the MTF by analyzing the nonlocal self-similarity characteristics, namely the structural component, in the observed image. To this end, this paper presents several strategies to realize the aim of this work. First, we propose a segmentation method to select the ideal candidates for MTF estimation. Second, we develop an adaptive structure selection method that removes detrimental structures and selects useful information for point spread function (PSF) estimation. Finally, we put forward a robust estimation method by introducing a spatial prior that is able to simultaneously suppress noises while preserving the sparsity and continuity of the PSF kernels. For the experiments, datasets used in the analyses are synthetically blurred images simulated from level 2A product of IKONOS and real remotely sensed images from level 0 product of RazakSAT. The experimental results demonstrate that the proposed method is practical and effective, with &lt;2.3% of relative error at the Nyquist frequency as compared to the well-established edge method. This indicates that the proposed method can warrant a reliable result for on-orbit spatial characterization.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">J. Ting, K. Wong and S. Ong, "<b>Format-Compliant Perceptual Encryption Method for JPEG XT</b>," 2019 IEEE 26th International Conference on Image Processing (ICIP), pp. 4559-4563, 2019. <small>[<a href="https://doi.org/10.1109/ICIP.2019.8803623">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>High dynamic range (HDR) image allows more details to be seen in a digital image, where objects in the darker (e.g., shadow) and brighter (e.g., sky) regions are made more visible. Therefore, there is an increasing number of devices that include the HDR imaging capturing capability. In this work, a method is put forward to encrypt high dynamic range image encoded in the JPEG XT standard. To achieve diffusion, DC coefficients in the base layer are shuffled in groups of variable sizes. Similarly, AC coefficients in the base and residual layers are shuffled in the form of (zero-run-size, value) pair. Our encryption method is able to achieve: (a) suppression of bit stream size expansion, (b) sufficiently mask the visual appearance of an HDR image, and (c) format-compliant. Experiments are carried out to verify the basic performance of the proposed method. In the best case scenario, an HDR image can be completely distorted to mask its perceptual semantics with slightly reduced file size.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">J. Ting, K. Wong and S. Ong, "<b>Rewritable Data Embedding in JPEG XT Image using Coefficient Count Across Layers</b>," 2019 IEEE 21st International Workshop on Multimedia Signal Processing (MMSP), pp. 1-6, 2019. <small>[<a href="https://doi.org/10.1109/MMSP.2019.8901783">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>A JPEG XT format-compliant data embedding method is put forward by exploiting the natural relationship of coefficient count in the base and residual layers. Specifically, the number of coefficients for each MCU in the base layer is often larger than that of the respective MCU in the residual layer. This happens when the quality factor of the base layer is ≥ 75 and the quality factor of the residual layer is lower than that of the base layer. The proposed method then swaps the MCUs within these two layers to embed data. In case when a MCU is indistinguishable, a marker is injected to explicitly mark this bad MCU. When only AC coefficients are swapped, the output image quality can be maintained with some expansion of bit stream size. On the other hand, when both DC and AC coefficients are swapped, the proposed method is able to generate a fully distorted output image, hence masking the perceptual semantic of the image. Experiments are carried out to evaluate the performance of the proposed data embedding method.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">K. Y. Ng, S. Ong and K. Wong, "<b>Delving into the Methods of Coverless Image Steganography</b>," 2019 11th Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), pp. 1763-1772, 2019. <small>[<a href="https://doi.org/10.1109/APSIPAASC47483.2019.9023053">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>Conventional cover-based image steganography methods embed secret information by modifying the original state of a cover image. This type of algorithm leaves a trace of changes on output stego image and eventually leads to successful detection by common steganalysis tools. As a solution, a coverless image steganographic method is proposed, where no cover image is required for embedding secret information. In this paper, the conventional coverless image steganography methods are first reviewed and categorized into constructive and nonconstructive-based methods. Next, these methods are summarized and analyzed, followed by a discussion about their advantages and drawbacks. Finally, the performances of the proposed methods are discussed using the common steganography evaluation metrics, including resistance to attack, embedding capacity, and perceptual image quality.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">R. Ito, K. Tanaka, K. Wong and S. Ong, "<b>Improvements on Data Insertion Technique in Encrypted Image against Lossy Compression</b>," 2019 International Symposium on Intelligent Signal Processing and Communication Systems (ISPACS), pp. 1-2, 2019. <small>[<a href="https://doi.org/10.1109/ISPACS48206.2019.8986356">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>This paper proposes two techniques in enhancing the robustness of a joint image encryption and data insertion method against lossy compression [1]. Safety zone is first introduced to ensure that pixel values representing `0' are separated from those representing `1' with a gap in between. This empty gap serves as a buffer so that pixels from both groups do not cross and eventually affect the extraction process. Next, majority vote is also adopted so that error can be further suppressed, although reducing number of bits that can be inserted. Results suggest that both strategies can suppress error caused by lossy compression.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">R. Ito, K. Wong, S. Ong and K. Tanaka. “<b>Encryption and Data Insertion Technique using Region Division and Histogram Manipulation</b>”. 2018 9th Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), 2018. <small>[<a href="https://doi.org/10.23919/APSIPA.2018.8659671">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>A separable encryption and data insertion method is proposed in this paper. The input image is divided into 2 parts, where the first part is manipulated to mask the perceptual semantics, while the second part is processed to hide data. The binary image, which is the data to be inserted, further divides the second part of the input image into 2 regions called the `zero' and `one' regions. Pixels of the original image at position coinciding with the `zero' region are darken, while those coinciding with the `one' region are brightened. The darkening and brightening processes are performed by using histogram matching technique. The proposed joint method is separable, where the inserted binary image can be extracted directly from the masked image or from the reconstructed image. The proposed method is also commutative because the same results is achieved irregardless of the order of processing in encrypting and inserting data. Experiments were carried out to verify the basic performances of the proposed method.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">W. K. Lee, S. Ong, K. Wong and K. Tanaka. “<b>A Novel Coverless Information Hiding Technique using Pattern Image Synthesis</b>”. 2018 9th Asia Pacific Signal and Information Processing Association Annual Summit and Conference, 2018. <small>[<a href="https://doi.org/10.23919/APSIPA.2018.8659777">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>In this paper, a novel coverless information hiding technique is proposed. Secret information is utilized as the input to synthesis pattern image with embedded secret. Three observed properties in general pattern images, including color, size and position are discussed in this paper to realize coverless information hiding. In the experiment result section, a simple prototype is built as a proof of concept. Finally, the performance of the prototype in terms of the visual image quality, embedding capacity and resistance to attacks are discussed.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S. Ong, S. Li, K. Wong, and K. Tan, “<b>Fast Recovery of Unknown Coefficients in DCT-Transformed Images</b>”, Elsevier Signal Processing:Image Communications, vol. 58, pp 1-13, 2017. <small>[<a href="https://doi.org/10.1016/j.image.2017.06.002">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>The advancement of cryptography and cryptanalysis has driven numerous innovations over years. Among them is the treatment of cryptanalysis on selectively encrypted content as a recovery problem. Recent research has shown that linear programming is a powerful tool to recover unknown coefficients in DCT-transformed images. While the time complexity is polynomial, it is still too high for large images so faster methods are still desired. In this paper, we propose a fast hierarchical DCT coefficients recovery method by combining image segmentation and linear programming. In theory the proposed method can reduce the overall time complexity by a linear factor which is the number of image segments used. Our experimental results showed that, for 100 test images of different sizes and using a naive image segmentation method based on Otsu’s thresholding algorithm, the proposed method is faster for more than 92% cases and the maximum improvement observed is more than 19 times faster. While being mostly faster, results also showed that the proposed method can roughly maintain the visual quality of recovered images in both objective and subjective terms.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">K. Y. Tan, K. Wong, S. Ong and K. Tanaka, “<b>Rewritable Data Insertion in Encrypted JPEG using Coefficient Prediction Method</b>”. 2017 8th Asia Pacific Signal and Information Processing Association Annual Summit and Conference, 2017. <small>[<a href="https://doi.org/10.1109/APSIPA.2017.8282030">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>This paper proposes a data insertion method using DCT coefficient prediction algorithm in encrypted JPEG image. First, a sequence of quantized AC coefficients are removed, and the remaining nonzero coefficients are shifted to the left, hence ensuring sufficient room for data insertion. Next, the external data is mapped to a set of Huffman codewords, and the external data is inserted into the image by introducing the corresponding Huffman codewords. At the receiver's side, the hidden data can be extracted by referring to the pre-defined table without the need to decrypt the image. To restore the image, the decrypted JPEG image is segmented using the Superpixel function, and further processed using the prediction algorithm for recovering the removed AC coefficients. Experimental results show the recovered images resemble their original counterparts. In the best case scenario, up to 19% compression gain is achieved while 24, 576 bits of external data can be inserted into the image.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S. Ong, K. Wong and K. Tanaka, “<b>Redesigning Data Hiding: Interpolation-based Scrambling-Embedding Method</b>,” 2017 8th Asia Pacific Signal and Information Processing Association Annual Summit and Conference, 2017. <small>[<a href="https://doi.org/10.1109/APSIPA.2017.8282029">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>In this paper, we explored the existing data hiding method and re-designed the method into a scrambling- embedding method to unify both scrambling and data embedding. Interpolated-based technique is revised and it is utilized to realize this unification. Experimental results indicate that the proposed method achieve scrambling while able to embed maximum up to ~668,498.8 bits for interpolating 256×256 pixels image into 512×512 pixels image. Besides, parameter W is introduced to enable scalability in output image quality degradation. Finally, the proposed method is compared to the relevant methods for performance evaluation purposes.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S. Ong, K. Wong, and K. Tanaka, "<b>Scrambling-Embedding for JPEG Compressed Image</b>", 109 (0), pp. 38-53, Signal Processing, April 2015. <small>[<a href="https://doi.org/10.1016/j.sigpro.2014.10.028">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>This paper proposes a novel reversible unified information hiding method for the JPEG compressed image, aiming to achieve scrambling and external data insertion simultaneously. The properties of DC coefficients, energy of AC coefficient block, and run of zero AC coefficients are exploited. Two techniques are proposed to degrade the perceptual quality while manipulating the DCT coefficients for data embedding. Most of the existing unified information hiding methods are designed to operate in the spatial domain and their direct application to the compressed domain such as JPEG will lead to large bitstream size increment. Thus, the proposed techniques aim to minimize the bitstream size increment while offering comparable performance with respect to the current state-of-the-art methods. Experiments are conducted to measure the performance of the proposed unified method by using the UCID (Uncompressed Color Image Database) database and standard test images. Results suggest that the effective data payload ranging from 32 to 10238 bits and SSIM value ranging from 0.0548 to 0.9432 are achieved for the UCID database. The proposed method are also compared with the conventional methods in terms of effective data payload, image quality degradation, bitstream size increment and robustness against multiple sketch attacks.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S. Ong, K. Wong, X. Qi, and K. Tanaka, "<b>Beyond Format-compliant Encryption for JPEG Image</b>", 31 (0), pp 47-60, Signal Processing:Image Communication, February 2015. <small>[<a href="https://doi.org/10.1016/j.image.2014.11.008">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>In this work, a format-compliant encryption method with the data embedding feature for JPEG compressed image is proposed. First, DC coefficients are encoded based on the regions induced by the textural information carried by AC coefficients. Second, AC coefficients are scanned in eight different orders and the order that results in the smallest bitstream size is selected. Next, AC coefficients from each block are extracted in the form of Run/Size and Value, and manipulated to significantly increase the scope of permutation. Then the virtual queue decomposition is proposed to embed external information. All the processes are completely reversible where the embedded information can be extracted and the original content can be perfectly reconstructed from its processed counterpart. The performance of the proposed method is verified through experiments using various standard test images and the UCID dataset. The proposed method is also compared against the conventional format-compliant encryption methods, where its superiority in terms of robustness against sketch attacks, suppression of bitstream size increment, and data embedding are highlighted. In the best case scenario, the proposed method is able to generate an encrypted image of the same size as the original image (e.g., 512×512) with more than 5800 bits of additionally embedded information while achieving a compression gain of 1%.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S. Ong, K. Wong, and K. Tanaka, "<b>A Scalable Reversible Data Embedding Method with Progressive Quality Degradation Functionality</b>", Signal Processing: Image Communication, 29 (1), pp. 135-149, January 2014. <small>[<a href="https://doi.org/10.1016/j.image.2013.09.001">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>This paper proposes a novel reversible information hiding method aiming to achieve scalable carrier capacity while progressively distorting the image quality. Unlike the conventional methods, the proposed method HAM (Histogram Association Mapping) purposely degrades the perceptual quality of the input image through data embedding. To the best of our knowledge, there is no method that attempts to significantly increase the carrier capacity while introducing (tolerating) intentional perceptual degradation for avoiding unauthorized viewing. HAM eliminates the expensive pre-processing step(s) required by the conventional histogram shifting data embedding approach and improves its carrier capacity. In particular, the host image is divided into non-overlapping blocks and each block is classified into two classes. Each class undergoes different HAM process to embed the external data while distorting quality of the image to the desired level. Experiments were conducted to measure the performances of the proposed method by using standard test images and CalTech 101 dataset. In the best case scenario, an average of ~2.88 bits per pixel is achieved as the effective carrier capacity for the CalTech 101 dataset. The proposed method is also compared with the conventional methods in terms of carrier capacity and scalability in perceptual quality degradation.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">R. M. Rad, S. Ong, and K. Wong, "<b>Reversible Data Hiding by Adaptive Modification of Prediction Errors</b>", The First International Workshop on Information Hiding and its Criteria for evaluation (IWIHC 2014). <small>[<a href="">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>To be updated.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S. Ong, K. Wong, and K. Tanaka, "<b>Reversible and Tunable Scrambling-Embedding Method</b>", Intelligent Signal Processing and Communication Systems (ISPACS), pp. 608 - 613, Naha, Japan, 12 - 15 Nov. 2013. <small>[<a href="https://doi.org/10.1109/ISPACS.2013.6704622">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>This paper proposes a reversible unified method to scramble an image and embed information into it using row and column rotation methods. Each row (column) is divided into groups and rotated to the left (bottom) to distort the image. Unique states are derived during the rotation process and utilized to embed external information. In the decoding process, the pixel correlations in the vertical and horizontal directions are exploited to reconstruct the original image and extract the embedded information. The proposed method is able to control the output image quality to achieve its intended distortion using the control parameters. Experiments are conducted to verify the basic performance of the proposed method. Our previously proposed method is adopted to further improve the proposed method in terms of payload and quality degradation of the output image. It is verified that the original image can be perfectly reconstructed and the proposed method itself is able to achieve an average effective payload up to ~9015.0 bits. SSIM and PSNR values are measured to determine the range of achievable distortion using different parameters.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S. Ong, and K. Wong, "<b>Rotational based Rewritable Data Hiding in JPEG</b>", IEEE Visual Communications and Image Processing (VCIP), pp. 1-6, Kuching, Malaysia, 17 - 20 Nov. 2013 <small>[<a href="https://doi.org/10.1109/VCIP.2013.6706428">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>This paper proposes a novel rotational method on AC coefficient pairs to embed data into a JPEG compressed image. The purpose is to improve the carrier capacity while maintaining its original feature in controlling quality degradation. The proposed method exploits two properties in the quantized AC coefficients, namely, large magnitude and short run of zeros for low frequency subbands, and vice versa. The coefficients are first grouped into pairs and then rotated to the left or right directions to create distinctive states, where each can be utilized to represent external data. The AC coefficients are not modified and no additional AC coefficients are introduced for data embedding. However, preprocessing is needed so that all blocks satisfy the properties assumed to ensure correct data extraction and image recovery. The proposed method is rewritable because the host image can be re-utilized without causing further distortion. Experiments were conducted to verify the basic performance of the proposed method. On average, the proposed method is able to embed up to ~9318 bits in the test images of quality factor 80.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S. Ong, K. Minemura and K. Wong, "<b>Progressive Quality Degradation in JPEG Compressed Image using DC Block Orientation with Rewritable Data Embedding Functionality</b>", International Conference on Image Processing (ICIP), pp. 4574-4578, Melbourne, Australia, 15 - 18 Sept. 2013. <small>[<a href="https://doi.org/10.1109/ICIP.2013.6738942">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>This paper proposes a novel block rotational method to degrade quality and embed external data in JPEG compressed image. The orientation of each non-overlapping DC coefficients block is exploited to embed information while introducing distortion. To achieve progressive quality degradation, size of DC coefficients block is manipulated and the proposed embedding process is applied recursively by shrinking block size in each iteration. Markers are added into the blocks as pre-processing steps to ensure that the original orientation always yields the smallest difference. A post-processing is also proposed to erase the marker introduced for recovering image at higher quality, making the proposed method a rewritable method but not complete reversible. Experiments are conducted to verify the basic performance of the proposed method and comparisons with the conventional methods are also carried out.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S. Ong, K. Wong and K. Tanaka, "<b>Improvement on Reversible Data Embedding Method using Virtual Queue Decomposition</b>", IIEEJ 3rd Image Electronics and Image Computing Workshop (IEVC), Kuching, Malaysia, 21-24 Nov. 2012. <small>[<a href="">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>To be updated.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">S. Ong, K. Wong and K. Tanaka, "<b>Reversible Data Embedding using Reflective Blocks with Scalable Visual Quality Degradation</b>", 2012 IEEE International Conference on Intelligent Information Hiding and Multimedia Signal Processing (IIH-MSP), Piraeus, Greece, 18-20 July 2012. <small>[<a href="https://doi.org/10.1109/IIH-MSP.2012.94">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>In this paper, a reversible data hiding method with scalable visual quality degradation functionality is proposed. An image is first divided into blocks and each pixel in a block is associated with unique mirror value(s). The original pixel value is modified to its associated value(s) to encode external payload. A block is further categorized as reflective and non-reflective block, depending on the range of pixel values in it. The number of bits embedded into a block can be controlled to achieve different level of image quality degradation. To further intensify the distortion, pixels grouped in block of predefined size is permuted where scalability in quality degradation is achieved by changing the block size. Basic performance of the proposed method is verified through experiments using standard test images. In the best case scenario, an image can hold up to 2.26 bits per pixel of external payload.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">K. Wong, S. Ong, K. Tanaka and Xiaojun Qi, "<b>Bitstream size suppression for DCT-based information hiding method</b>," 2011 International Symposium on Intelligent Signal Processing and Communications Systems (ISPACS), Chiang Mai, pp. 1-5, 2011. <small>[<a href="https://doi.org/10.1109/ISPACS.2011.6146110">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>Although ScaScraIH [1] is able to scalably scramble image/video and offer scalable carrier capacity for reversible data embedding [2], the product of ScaScraIH suffers from bitstream size increment of ~9.17% on average. The main cause of bitstream size increment in ScaScraIH is storing the number of nonzero coefficients in each 8 × 8 block which is utilized during the descrambling process. This paper proposes two techniques in suppressing bitstream size increment for ScaScraIH. The first technique exploits the distribution of nonzero DCT coefficients in the image to construct a scanning order, aiming to shorten the distance between nonzero coefficients in a block. For the second technique, combination of predictive and entropy coding is used to encode the number of nonzero coefficients. Experiments are conducted by using standard test images to verify the effectiveness of both techniques in suppressing bitstream size increment. On average, bitstream size increment is significantly suppressed to ~0.91%, with some of the processed images assuming smaller bitstream size than its original counter part.</i></p>
+</details>
+
+<details>
+	<summary class="pubtitle">K. Wong, S. Ong and K. Tanaka, "<b>Improvement of carrier capacity for scalable scrambling method with reversible information insertion functionality</b>," 2011 IEEE International Conference on Signal and Image Processing Applications (ICSIPA), Kuala Lumpur, pp. 312-317, 2011. <small>[<a href="https://doi.org/10.1109/ICSIPA.2011.6144133">DOI</a>]</small></summary>
+	<p class="abstract">Abstract: <i>This paper proposes a scalable data representation scheme to improve the carrier capacity of a data hiding method called ScaScraIH [1] in the DCT compressed domain. Though ScaScraIH can scalably scramble a DCT compressed content such as JPEG image and MPEG/H.26x video while inserting external information into it, the manipulated content suffers from consistent bitstream size increment. To better justify the inevitable bitstream size increment, we propose a data representation scheme called virtual queue decomposition to scalably increase the carrier capacity of ScaScraIH without further increasing bitstream size of the output product. Virtual queue decomposition puts zerorun-value pairs into a fixed number of sub-queues, where the cardinality of each sub-queue together form a unique decomposition that encodes a segment of the external information. Carrier capacity is increased by simply increasing the number of sub-queues, but at the expense of higher computational complexity. Analysis is carried out to compute the theoretical upper bound for carrier capacity with respect to ScaScraIH. Experiments are also carried out to verify the proposed improvement.</i></p>
+</details>
+
+	</div>
+</div>
+
+
+
+
+
+
+<br>
+<div class="content" style="text-align:center">
+<table style="width:800px">
+	<tr>
+		<th><hr></th>
+		<th style="width:35%;text-align:right"><p class="footer">Copyright &#169; 2020. All rights reserved.</th>
+	</tr>
+</table>
+  <!-- Page content -->
+</div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+</body>
+</html>
